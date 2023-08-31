@@ -74,10 +74,6 @@ const config = {
                 label: 'Intro',
                 to: '/docs/intro',
               },
-              {
-                label: 'Qi~Chi Play',
-                to: '/docs/tutorial-extras/qi',
-              },
             ],
           },
           {
