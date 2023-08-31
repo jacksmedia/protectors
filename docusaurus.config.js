@@ -6,16 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Jacks Media',
+  title: 'Protectors of the Realm',
   staticDirectories: ['public', 'static'],
-  tagline: 'Enthusiasm, Not Financial Advice',
-  url: 'https://jacks.media',
+  tagline: 'Dragons & Diplomacy in the Realm of Karitha',
+  url: 'https://protectors.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'jacksmedia', // Usually your GitHub org/user name.
-  projectName: 'j4cksdotcom', // Usually your repo name.
+  projectName: 'protectors', // Usually your repo name.
 
   presets: [
     [
@@ -25,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/jacksmedia/protectors',
         },
         blog: {
           showReadingTime: true,
@@ -44,10 +44,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Jacks.Media',
+        title: 'Protectors',
         logo: {
-          alt: 'Jacks Media',
-          src: 'img/Rock98.png',
+          alt: 'Protectors of the Realm',
+          src: 'img/dragonfly.png',
         },
         items: [
           {
@@ -56,9 +56,9 @@ const config = {
             position: 'left',
             label: 'Guides',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Famous Games', position: 'left'},
           {
-            href: 'https://github.com/jacksmedia/j4cksdotcom',
+            href: 'https://github.com/jacksmedia/protectors',
             label: 'Code on GH',
             position: 'right',
           },

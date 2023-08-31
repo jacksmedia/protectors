@@ -3,13 +3,17 @@
  * and scoped locally.
  */
 
+header {
+  min-height: 50vh;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
   
-  background: url(./city2069.jpg);
+  background: url(./bad-sky.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
