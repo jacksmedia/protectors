@@ -56,7 +56,7 @@ const config = {
             position: 'left',
             label: 'Guides',
           },
-          {to: '/blog', label: 'Famous Games', position: 'left'},
+          {to: '/blog', label: 'FAQ', position: 'left'},
           {
             href: 'https://github.com/jacksmedia/protectors',
             label: 'Code on GH',
@@ -80,8 +80,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'ProjectX Discord - Learn web3!',
-                href: 'https://discord.gg/projectx-dao',
+                label: 'Protectors Discord - Play the Game!',
+                href: 'https://discord.gg/6uP4pUgXpC',
               },
               {
                 label: 'Lannuvar DAO in Realm of Karitha',
