@@ -6,4 +6,4 @@ authors: j4cks
 tags: [Karitha, NFTs, EGLD, Elrond, ]
 ---
 
-The REALM of Karitha game birthed the world that hosts this game.
+The REALM of Karitha birthed the world that hosts this game.
