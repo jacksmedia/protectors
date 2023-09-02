@@ -4,35 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Use EGLD',
-    img: require('@site/static/img/magic-egld.png').default,
-    linker: 'https://xport.al/referral/o6q0in3yh6/',
+    title: 'New Player Guide',
+    img: require('@site/static/img/panel1.png').default,
+    linker: 'https://stash23.s3.us-west-2.amazonaws.com/PotR-QuickIntro07.pdf',
     description: (
       <>
-        EGLD is the crypto with the world's best wallet &
-        you can send/use/stake it for fractions of a penny on the MultiversX blockchain
+        Read this to for a rules refresh or to learn the basics!
       </>
     ),
   },
   {
-    title: 'Wield Synthography',
-    img: require('@site/static/img/book02.png').default,
-    linker: '/docs/tutorial-ai-art/midjourney1',
+    title: 'PotR Main Rules v0.7',
+    img: require('@site/static/img/panel2.png').default,
+    linker: 'https://stash23.s3.us-west-2.amazonaws.com/PotR-OfficialRulesv07.pdf',
     description: (
       <>
-        Synthographic aka "AI Art" tools let you write 
-        what you wish to see, and refine your mind's eye
+        Complete rules resource, including all the latest expansions!
       </>
     ),
   },
   {
-    title: 'Mine Crypto in 2023',
-    img: require('@site/static/img/raven.png').default,
-    linker: '/docs/tutorial-mining/intro',
+    title: 'Rules Reference Sheet',
+    img: require('@site/static/img/panel3.png').default,
+    linker: 'https://stash23.s3.us-west-2.amazonaws.com/PotR-ReferenceSheetv07.pdf',
     description: (
       <>
-        Ravencoin can be yours when you download and run free software
-        on your gaming PC or laptop. Hodl or swap and be your own banker!
+        Keep this handy when playing Protectors of the Realm, once you've perused the main rules.
       </>
     ),
   },
@@ -48,7 +45,7 @@ function Feature({img, title, description, linker}) {
         <h3>{title}</h3>
         <p>{description}</p>
         <a href={linker}>
-          <button>More...</button>
+          <button>Download</button>
         </a>
       </div>
     </div>

@@ -3,8 +3,7 @@
  * and scoped locally.
  */
 
-header {
-  min-height: 50vh;
+.splash-image {
 }
 
 .heroBanner {
@@ -12,6 +11,8 @@ header {
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: 50vh;
+  height: 50vh;
   
   background: url(./bad-sky.jpg);
   background-size: cover;

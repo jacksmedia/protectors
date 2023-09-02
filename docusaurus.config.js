@@ -107,7 +107,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. $EGLD: erd159mypt4myss3mqrs89ft0hjeacffks2690gq9u3mlh73m9sh0w5s09eqhh`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. Support Protectors: erd1mwvw34826j6nm4wc04qxrnxgphquwkahfe0ughgakz6s5qrs2u5swdsdxs`,
       },
       prism: {
         theme: lightCodeTheme,
