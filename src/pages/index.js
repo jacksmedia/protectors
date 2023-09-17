@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`NFA ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Protectors of the Realm: Dragons & Diplomacy">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

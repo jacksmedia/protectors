@@ -33,6 +33,26 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Expansion Rules: Quests!',
+    img: require('@site/static/img/panel4.png').default,
+    linker: 'https://stash23.s3.us-west-2.amazonaws.com/PotR_Quests_v03.pdf',
+    description: (
+      <>
+        Bonus content used in some games: read the Quests! details here.
+      </>
+    ),
+  },
+  {
+    title: 'Expansion Rules: Heroes & Tyrants',
+    img: require('@site/static/img/panel5.png').default,
+    linker: 'https://stash23.s3.us-west-2.amazonaws.com/PotR_HeroesTyrants_v01.pdf',
+    description: (
+      <>
+        Bonus content used in some games: read the Heroes & Tyrants details here.
+      </>
+    ),
+  },
 ];
 
 function Feature({img, title, description, linker}) {
